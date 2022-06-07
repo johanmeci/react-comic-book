@@ -1,7 +1,9 @@
+import { HeaderLayout } from "../styles/LayoutStyles";
+
 export default function Header() {
   return(
-    <header>
-      Comic Book Header
-    </header>
+    <HeaderLayout className="header">
+      <h1 className="header--title">ComicBook</h1>
+    </HeaderLayout>
   );
 }
