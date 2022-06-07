@@ -6,7 +6,7 @@ export default function Menu() {
       <span className="menu--title">Latest Issues</span>
       <div className="menu--actions">
         <button className="menu--button">List</button>
-        <button className="menu--button active">Grid</button>
+        <button className="menu--button">Grid</button>
       </div>
     </MenuLayout>
   )
