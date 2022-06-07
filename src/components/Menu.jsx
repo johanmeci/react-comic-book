@@ -1,11 +1,13 @@
+import { MenuLayout } from "../styles/LayoutStyles";
+
 export default function Menu() {
   return(
-    <div className="menu">
-      <p className="menu--title">Latest Issues</p>
+    <MenuLayout className="menu">
+      <span className="menu--title">Latest Issues</span>
       <div className="menu--actions">
         <button className="menu--button">List</button>
-        <button className="menu--button">Grid</button>
+        <button className="menu--button active">Grid</button>
       </div>
-    </div>
+    </MenuLayout>
   )
 }

@@ -1,10 +1,10 @@
 const theme = {
   //Colors
   colors: {
-    backgroundPrimary: "#3f8dfd",
+    backgroundPrimary: "#e6e6e6",
     backgroundSecondary: "#040404",
     colorWhite: "#f5f8f1",
-    borderColor: "#DEDEDE"
+    borderColor: "#c9c9c9"
   },
   // Breakpoints for responsive design
   breakpoints: {
